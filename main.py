@@ -10,7 +10,7 @@ unit_change = \
         4: "Time",
         5: "Spead",
         6: "Energy",
-        7: "Pressure"
+        7: "Pressure",
         8: "Area"
     }
 
@@ -317,8 +317,7 @@ elif change == 7:
         print("{} atm is equal to {} Bar".format(Pressure_value, Pressure_value * 1.013))
     else:
         print("Sorry, Please type correct number from 1 to 6.")
-else:
-    print("Sorry, Please type correct number from 1 to 7.")
+
 
 
 # ==== Type 8 (Area) ====
@@ -337,7 +336,7 @@ elif change == 8:
     Area = float(input("- Enter a number to convert: "))
     for keys, values in Temp_dict.items():
         print("{:2}. {}".format(keys, values))
-     Area_op = int(input("\nWhich conversion you want to do from 1 to 2: "))
+    Area_op = int(input("\nWhich conversion you want to do from 1 to 2:"))
 
     # ==== converting ====
     if  Area_op == 1:
@@ -347,6 +346,8 @@ elif change == 8:
     
     else:
         print("Sorry, Please type correct number from 1 to 6.")
+else:
+    print("Sorry, Please type correct number from 1 to 8.")
 
 print("farnamjavadi.com")
 

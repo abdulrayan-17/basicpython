@@ -350,5 +350,6 @@ else:
     print("Sorry, Please type correct number from 1 to 8.")
 
 print("abdulrayan2003@gmail.com")
+int=input("Enter any key to exit")
 
 
